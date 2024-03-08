@@ -30,7 +30,7 @@ The list of permissions required by the app can be found in the `AndroidManifest
 | `android.permission.ACCESS_FINE_LOCATION` | Request foreground location access to get the running data(time, distance) |Permission automatically granted by the system; can't be revoked by user. |
 | `android.permission.ACCESS_COARSE_LOCATION` | Request foreground location access to get the running data(time, distance) Permission automatically granted by the system; can't be revoked by user. |
 | `android.permission.FOREGROUND_SERVICE` | Enables the app to create foreground services that will track the distance and time. Permission automatically granted by the system; can't be revoked by user. |
-| `android.permission.WAKE_LOCK`  Required to the show running screen when finished the run . Automatically granted by the system; cannot be revoked by user. |
+| `android.permission.WAKE_LOCK` | Required to the show running screen when finished the run . Automatically granted by the system; cannot be revoked by user. |
 `android.permission.READ_EXTERNAL_STORAGE` | THis permission is used to read the running data (time, distance) 
 `android.permission.WRITE_EXTERNAL_STORAGE` | This permission is used only to save the running data(time , distance) so user can track easily their running data  
 
